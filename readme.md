@@ -1,5 +1,7 @@
 The HatTrie code is compiled with this command line:
 
+cl HatTrie64d.c /Ox -- or -- cc HatTrie64d.c -o HatTrie64d
+
 HatTrie64d [load file name] [search file name] [# root levels] [# of slots in a pail node] [hash bucket slots] [maximum strings per hash bucket] [smallest string array size in 16 byte units] ...
 
 All parameters after the two file names are optional, but positional, and are supplied with the following default values:
